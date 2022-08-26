@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Illustrations from './components/Illustrations'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <Illustrations />
+      <div className='bg-blue-300 text-red-200'>Tailwind is active</div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
