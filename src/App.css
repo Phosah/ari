@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Larken';
+  font-weight: 700;
+  src: url('./fonts/Larken-Bold.otf') format(openType);
+}
+
+.app {
+  font-family: "Larken";
+}

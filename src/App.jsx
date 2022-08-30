@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="app min-h-screen bg-black text-white">
       <Navbar />
       <Illustrations />
     </div>
@@ -13,3 +13,4 @@ function App() {
 }
 
 export default App
+
