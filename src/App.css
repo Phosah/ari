@@ -7,3 +7,9 @@
 .app {
   font-family: "Larken";
 }
+
+.footer {
+  background-image: url('./assets/footer-bg.png');
+  /* background-position: contain; */
+  background-repeat: no-repeat;
+}
