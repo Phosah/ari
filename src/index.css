@@ -2,42 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: 'Larken';
-  font-weight: 700;
-  src: url('./fonts/Larken-Bold.otf') format(openType);
-} */
 @font-face {
-  font-family: 'Larken';
+  font-family: "Larken";
   font-weight: bold;
-  font-weight: 500; /* fallback */
-  src: local('Larken Bold') url('./fonts/Larken-Bold.ttf'), format(trueType);
+  src:  url('./font/Larken-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Larken';
-  font-weight: 700;
-  src: local('Larken ExtraBold'), url('./fonts/Larken-ExtraBold.otf'), format(openType);
+  font-weight: bolder;
+  src: url('./font/Larken-ExtraBold.otf');
 }
 
 @font-face {
   font-family: 'Larken';
-  font-weight: 800;
-  src: local('Larken Variable'), url('./fonts/Larken-Variable.ttf'), format(trueType);
+  src: url('./font/Larken-Variable.ttf');
 }
 
 @font-face {
   font-family: 'ClashGrotesk';
-  font-weight: 700;
-  src: local('Clash Grotesk'), url('./fonts/ClashGrotesk-Bold.otf'), format(openType);
+  src: url('./font/ClashGrotesk-Bold.otf');
 }
 
 .app {
-  font-family: "ClashGrotesk";
-  /* font-weight: 700; */
-}
-
-.font-larken-bold {
-  font-family: "Larken", serif;
-  font-weight: 500;
+  font-family: ClashGrotesk, sans-serif;
+  /* font-weight: bolder; */
 }
