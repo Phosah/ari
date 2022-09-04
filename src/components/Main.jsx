@@ -1,6 +1,5 @@
 import React from 'react'
 import {Routes, Route, Link} from 'react-router-dom'
-// import Illustrations from './Illustrations'
 import Rafiki from './Rafiki'
 import About from './About'
 import Projects from './Projects'

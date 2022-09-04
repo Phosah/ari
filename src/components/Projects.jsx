@@ -3,7 +3,6 @@ import Illustrations from "./Illustrations";
 import illustration1 from "../assets/illustrations-1.png";
 import illustration2 from "../assets/illustrations-2.png";
 
-
 export default function Projects () {
     return (
         <div className="max-w-7xl mx-auto">
@@ -14,7 +13,7 @@ export default function Projects () {
                 img={illustration1}
             />
             <Illustrations 
-                project="PROJECT 1/4" 
+                project="PROJECT 2/4" 
                 description="Expressions - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit vitae, orci..." 
                 img={illustration2}
             />

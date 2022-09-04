@@ -1,5 +1,4 @@
 import React from 'react'
-// import illustrations1 from "../assets/illustrations-1.png"
 
 const Illustrations = props => {
   return (
