@@ -5,6 +5,7 @@ import design1 from "../assets/design1.png";
 import design2 from "../assets/design2.png";
 import design3 from "../assets/design3.png";
 import design4 from "../assets/design4.png";
+import design5 from "../assets/design5.png";
 
 const Rafiki = () => {
     return (
@@ -63,6 +64,13 @@ const Rafiki = () => {
                     <div><img src={design3} alt="Final design" /></div>
                     <div><img src={design4} alt="Final design" /></div>
                 </div>
+            </div>
+            <div className="flex justify-between py-20">
+                <div>
+                    <h3 className="mb-3">Watch Design Process</h3>
+                    <p>you can take a look at how i came about the designs if you would love to get inspired</p>
+                </div>
+                <div><img src={design5} alt="Design" /></div>
             </div>
         </main>
     )

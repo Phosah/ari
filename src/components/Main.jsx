@@ -1,5 +1,6 @@
 import React from 'react'
 import {Routes, Route, Link} from 'react-router-dom'
+import Home from './Home'
 import Rafiki from './Rafiki'
 import About from './About'
 import Menu from './Menu'
@@ -9,6 +10,7 @@ function Main() {
   return (
     <div>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/rafiki" element={<Rafiki />} />
         <Route path="/about" element={<About />} />
