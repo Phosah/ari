@@ -11,7 +11,7 @@ export default function Home () {
                 <div><img src={ari} alt="Ari photo" /></div>
                 <p>HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
             </div>
-            <div className="max-w-5xl py-20">
+            <div className="max-w-5xl mx-auto py-20">
                 <div className=" text-right">
                     <h4>1</h4>
                     <h2 className="mb-4 text-7xl">Illustrations</h2>

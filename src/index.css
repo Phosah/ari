@@ -3,35 +3,30 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Larken" serif;
+  font-family: 'Larken', serif;
+  src: url('./fonts/Larken-Bold.ttf');
   font-weight: bold;
-  font-style: normal;
-  src:  url('./font/Larken-Bold.ttf');
+  /* font-style: normal; */
 }
 
 @font-face {
   font-family: 'Larken' serif;
   font-weight: bolder;
   font-style: normal;
-  src: url('./font/Larken-ExtraBold.otf');
+  src: url('./fonts/Larken-ExtraBold.otf');
 }
 
 @font-face {
   font-family: 'Larken' serif;
-  src: url('./font/Larken-Variable.ttf');
+  src: url('./fonts/Larken-Variable.ttf');
 }
 
 @font-face {
   font-family: 'ClashGrotesk' sans-serif;
-  src: url('./font/ClashGrotesk-Bold.otf');
+  src: url('./fonts/ClashGrotesk-Bold.otf');
 }
 
 .app {
-  font-family: Larken, serif;
-  font-weight: bold;
-}
-
-.larken-bold {
-  font-family: Larken, serif;
+  font-family: 'Larken', serif;
   font-weight: bold;
 }
