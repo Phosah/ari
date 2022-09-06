@@ -1,6 +1,10 @@
 import React from "react";
 import mood1 from "../assets/mood1.png";
 import mood2 from "../assets/mood2.png";
+import design1 from "../assets/design1.png";
+import design2 from "../assets/design2.png";
+import design3 from "../assets/design3.png";
+import design4 from "../assets/design4.png";
 
 const Rafiki = () => {
     return (
@@ -49,6 +53,15 @@ const Rafiki = () => {
                 <div className="grid grid-cols-2 gap-x-4">
                     <div><img src={mood2} alt="Moodboard" /></div>
                     <div><img src={mood1} alt="Moodboard" /></div>
+                </div>
+            </div>
+            <div className="py-20">
+                <h2 className="mb-6 text-7xl">Final Design</h2>
+                <div className="grid grid-cols-2 gap-4">
+                    <div><img src={design1} alt="Final design" /></div>
+                    <div><img src={design2} alt="Final design" /></div>
+                    <div><img src={design3} alt="Final design" /></div>
+                    <div><img src={design4} alt="Final design" /></div>
                 </div>
             </div>
         </main>
