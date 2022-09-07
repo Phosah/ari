@@ -3,6 +3,7 @@ import ari from "../assets/ari.png";
 import brush from "../assets/paint-brush.svg";
 import happyface from "../assets/happy-face.svg";
 import scroll from "../assets/scroll.png";
+import { Link } from "react-router-dom";
 
 export default function Home () {
     return (
@@ -33,19 +34,19 @@ export default function Home () {
             <div className="max-w-5xl mx-auto my-20 py-20">
                 <div className="flex justify-end space-x-4 py-10">
                     <h4 className="text-4xl text-brand-gray-2">1</h4>
-                    <h2 className="text-7xl">Illustrations</h2>
+                    <Link to="/projects"><h2 className="text-7xl">Illustrations</h2></Link>
                 </div>
                 <div className="flex space-x-4 py-10 max-w-2xl mx-auto">
                     <h4 className="text-4xl text-brand-gray-2">2</h4>
-                    <h2 className="text-7xl">NFT ARTS</h2>
+                    <Link to="/"><h2 className="text-7xl">NFT ARTS</h2></Link>
                 </div>
                 <div className="flex justify-end space-x-4 py-10 max-w-2xl mx-auto">
                     <h4 className="text-4xl text-brand-gray-2">3</h4>
-                    <h2 className="text-7xl">Graphics</h2>
+                    <Link to="/"><h2 className="text-7xl">Graphics</h2></Link>
                 </div>
                 <div className="flex space-x-4 px-16 py-10">
                     <h4 className="text-4xl text-brand-gray-2">4</h4>
-                    <h2 className="text-7xl">Gaming</h2>
+                    <Link to="/"><h2 className="text-7xl">Gaming</h2></Link>
                 </div>
             </div>
         </main>
