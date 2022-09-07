@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         brand: {
           gray: {
-            1: "#818181"
+            1: "#818181",
+            2: "#7A7478"
           }
         }
       }

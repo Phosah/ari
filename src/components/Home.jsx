@@ -8,19 +8,20 @@ export default function Home () {
     return (
         <main className="max-w-7xl mx-auto px-6">
             <div className="py-20">
-                <h1 className="text-7xl italic">Visual Designer 
-                    <span className="text-brand-gray-1 not-italic"> and</span> Art Director 
-                    <span><img className="inline-block" src={brush} alt="Paint brush" /></span> 
-                    <span className="text-brand-gray-1 not-italic">Creating Delightful Experiences</span>
-                </h1>
+                <div className="text-center text-7xl">
+                    <h1 className="italic">Visual Designer <span className="text-brand-gray-1 not-italic">and</span></h1>
+                    <h1 className="italic">Art Director <img className="inline-block" src={brush} alt="Paint brush" /> <span className="text-brand-gray-1">Creating</span> </h1>
+                    <h1 className="text-brand-gray-1">Delightful Experiences</h1>
+                </div>
+
                 <div className="flex items-center justify-center py-10"><img src={happyface} alt="happy face smiley" /></div>
             </div>
             <div className="flex items-center justify-between space-x-4 py-20">
                 <div className="w-3/5 flex items-center space-x-4">
-                    <div className="w-48"><img src={ari} alt="Ari photo" /></div>
-                    <div>
-                        <p className="mb-4">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
-                        <div className="flex items-center space-x-4">
+                    <div><img className="w-52" src={ari} alt="Ari photo" /></div>
+                    <div className="text-brand-gray-2 uppercase font-light">
+                        <p className="mb-6 text-xl">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
+                        <div className="flex items-center space-x-4 text-xs">
                             <p>Twitter</p>
                             <p>LinkedIn</p>
                             <p>Behance</p>
