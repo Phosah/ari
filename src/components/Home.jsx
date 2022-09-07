@@ -17,7 +17,7 @@ export default function Home () {
                 <div className="flex items-center justify-center py-10"><img src={happyface} alt="happy face smiley" /></div>
             </div>
             <div className="flex items-center justify-between space-x-4 py-20">
-                <div className="w-3/5 flex items-center space-x-4">
+                <div className="w-3/5 flex items-center space-x-8">
                     <div><img src={ari} alt="Ari photo" /></div>
                     <div className="text-brand-gray-2 uppercase font-light">
                         <p className="mb-6 text-xl">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
@@ -30,22 +30,22 @@ export default function Home () {
                 </div>
                 <div><img src={scroll} alt="Scroll down" /></div>
             </div>
-            <div className="max-w-5xl mx-auto py-20">
-                <div className=" text-right">
-                    <h4>1</h4>
-                    <h2 className="mb-4 text-7xl">Illustrations</h2>
+            <div className="max-w-5xl mx-auto my-20 py-20">
+                <div className="flex justify-end space-x-4 py-10">
+                    <h4 className="text-4xl text-brand-gray-2">1</h4>
+                    <h2 className="text-7xl">Illustrations</h2>
                 </div>
-                <div>
-                    <h4>2</h4>
-                    <h2 className="mb-4 text-7xl">NFT ARTS</h2>
+                <div className="flex space-x-4 py-10 max-w-2xl mx-auto">
+                    <h4 className="text-4xl text-brand-gray-2">2</h4>
+                    <h2 className="text-7xl">NFT ARTS</h2>
                 </div>
-                <div className="text-right">
-                    <h4>3</h4>
-                    <h2 className="mb-4 text-7xl">Graphics</h2>
+                <div className="flex justify-end space-x-4 py-10 max-w-2xl mx-auto">
+                    <h4 className="text-4xl text-brand-gray-2">3</h4>
+                    <h2 className="text-7xl">Graphics</h2>
                 </div>
-                <div>
-                    <h4>4</h4>
-                    <h2 className="mb-4 text-7xl">Gaming</h2>
+                <div className="flex space-x-4 px-16 py-10">
+                    <h4 className="text-4xl text-brand-gray-2">4</h4>
+                    <h2 className="text-7xl">Gaming</h2>
                 </div>
             </div>
         </main>
