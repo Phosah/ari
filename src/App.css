@@ -3,3 +3,9 @@
   /* background-position: center; */
   background-repeat: no-repeat;
 }
+
+.rafiki-hero {
+  background-image: url('./assets/rafiki.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
