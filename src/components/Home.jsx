@@ -8,7 +8,7 @@ export default function Home () {
     return (
         <main className="max-w-7xl mx-auto px-6">
             <div className="py-20">
-                <div className="text-center text-7xl">
+                <div className="text-center text-8xl">
                     <h1 className="italic">Visual Designer <span className="text-brand-gray-1 not-italic">and</span></h1>
                     <h1 className="italic">Art Director <img className="inline-block" src={brush} alt="Paint brush" /> <span className="text-brand-gray-1">Creating</span> </h1>
                     <h1 className="text-brand-gray-1">Delightful Experiences</h1>
@@ -18,7 +18,7 @@ export default function Home () {
             </div>
             <div className="flex items-center justify-between space-x-4 py-20">
                 <div className="w-3/5 flex items-center space-x-4">
-                    <div><img className="w-52" src={ari} alt="Ari photo" /></div>
+                    <div><img src={ari} alt="Ari photo" /></div>
                     <div className="text-brand-gray-2 uppercase font-light">
                         <p className="mb-6 text-xl">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
                         <div className="flex items-center space-x-4 text-xs">
