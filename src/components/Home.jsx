@@ -4,10 +4,12 @@ import brush from "../assets/paint-brush.svg";
 import happyface from "../assets/happy-face.svg";
 import scroll from "../assets/scroll.png";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function Home () {
     return (
         <main className="max-w-7xl mx-auto px-6">
+            <Navbar />
             <div className="py-20">
                 <div className="text-center text-8xl">
                     <h1 className="italic">Visual Designer <span className="text-brand-gray-1 not-italic">and</span></h1>

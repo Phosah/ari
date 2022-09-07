@@ -3,9 +3,11 @@ import person1 from "../assets/person1.png";
 import person2 from "../assets/person2.png";
 import person3 from "../assets/person3.png";
 import person4 from "../assets/person4.png";
+import Navbar from "./Navbar";
 function About () {
     return (
         <main className="max-w-7xl mx-auto px-6">
+            <Navbar />
             <h1>About Me</h1>
             <h3 className="mb-12">BRIDGING THE GAP BETWEEN PEOPLE AND PRODUCTS</h3>
             <div className="flex items-center justify-between my-20">
