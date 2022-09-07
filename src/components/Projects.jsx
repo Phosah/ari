@@ -13,6 +13,7 @@ export default function Projects () {
                 description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit vitae, orci dictum amet..." 
                 img={illustration1}
                 titleColor="text-brand-green-1"
+                page="/rafiki"
             />
             <Illustrations 
                 project="PROJECT 2/4" 
@@ -20,6 +21,7 @@ export default function Projects () {
                 description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit vitae, orci..." 
                 img={illustration2}
                 titleColor="text-[#3B61FF]"
+                page="/rafiki"
             />
             <Illustrations 
                 project='PROJECT 3/4' 
@@ -27,6 +29,7 @@ export default function Projects () {
                 description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit vitae, orci dictum amet..." 
                 img={illustration1}
                 titleColor="text-[#EEA03C]"
+                page="/rafiki"
             />
             <Illustrations 
                 project="PROJECT 4/4" 
@@ -34,6 +37,7 @@ export default function Projects () {
                 description=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit vitae, orci..." 
                 img={illustration2}
                 titleColor="text-[#3B61FF]"
+                page="/rafiki"
             />
         </div>
     )
