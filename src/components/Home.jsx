@@ -2,6 +2,7 @@ import React from "react";
 import ari from "../assets/ari.png";
 import brush from "../assets/paint-brush.svg";
 import happyface from "../assets/happy-face.svg";
+import scroll from "../assets/scroll.png";
 
 export default function Home () {
     return (
@@ -14,9 +15,19 @@ export default function Home () {
                 </h1>
                 <div className="flex items-center justify-center py-10"><img src={happyface} alt="happy face smiley" /></div>
             </div>
-            <div className="flex items-center space-x-4 py-20">
-                <div><img src={ari} alt="Ari photo" /></div>
-                <p>HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
+            <div className="flex items-center justify-between space-x-4 py-20">
+                <div className="w-3/5 flex items-center space-x-4">
+                    <div className="w-48"><img src={ari} alt="Ari photo" /></div>
+                    <div>
+                        <p className="mb-4">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
+                        <div className="flex items-center space-x-4">
+                            <p>Twitter</p>
+                            <p>LinkedIn</p>
+                            <p>Behance</p>
+                        </div>
+                    </div>
+                </div>
+                <div><img src={scroll} alt="Scroll down" /></div>
             </div>
             <div className="max-w-5xl mx-auto py-20">
                 <div className=" text-right">
