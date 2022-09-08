@@ -18,7 +18,11 @@ module.exports = {
             1: "#3B61FF"
           }
         }
-      }
+      },
+      height: {
+        110: "32rem",
+        128: "40rem",
+      },
     },
   },
   plugins: [],

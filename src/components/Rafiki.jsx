@@ -6,14 +6,18 @@ import design2 from "../assets/design2.png";
 import design3 from "../assets/design3.png";
 import design4 from "../assets/design4.png";
 import design5 from "../assets/design5.png";
+import rafikiHero from "../assets/rafiki.png";
 import Navbar from "./Navbar";
 
 const Rafiki = () => {
     return (
         <main className="">
-            <div className="rafiki-hero h-screen">
-                <Navbar />
-                <h1 className="flex justify-center h-full mb-12 text-7xl">Rafiki</h1>
+            <div className="relative h-screen">
+                <img className="absolute inset-0 object-cover h-full w-full"  src={rafikiHero} alt="rafiki hero" />
+                <div className="absolute">
+                    <Navbar />
+                    <h1 className="flex justify-center mb-12 text-7xl">Rafiki</h1>
+                </div>
             </div>
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex items-center justify-between space-x-8 py-20">
