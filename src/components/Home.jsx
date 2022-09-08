@@ -33,7 +33,7 @@ export default function Home () {
                 </div>
                 <div><img src={scroll} alt="Scroll down" /></div>
             </div>
-            <div className="max-w-5xl mx-auto my-20 py-20">
+            <div className="max-w-5xl mx-auto py-40">
                 <div className="flex justify-end space-x-4 py-10">
                     <h4 className="text-4xl text-brand-gray-2">1</h4>
                     <Link to="/projects"><h2 className="text-7xl">Illustrations</h2></Link>
