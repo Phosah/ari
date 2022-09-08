@@ -60,7 +60,7 @@ const Rafiki = () => {
                     </div>
                 </div>
                 <div className="py-20">
-                    <h2 className="max-w-7xl mx-auto mb-8 px-20 text-6xl">Moodboard</h2>
+                    <h2 className="max-w-7xl mx-auto mb-10 px-20 text-6xl">Moodboard</h2>
                     <div className="mb-4 grid grid-cols-3 gap-x-4">
                         <div><img src={mood1} alt="Moodboard" /></div>
                         <div><img src={mood2} alt="Moodboard" /></div>
@@ -72,21 +72,23 @@ const Rafiki = () => {
                         <div><img src={mood1} alt="Moodboard" /></div>
                     </div>
                 </div>
-                <div className="py-20">
-                    <h2 className="mb-6 text-7xl">Final Design</h2>
-                    <div className="grid grid-cols-2 gap-4">
+                <div className="max-w-7xl mx-auto my-20 py-20 px-6">
+                    <h2 className="mb-10 text-center text-8xl">Final Design</h2>
+                    <div className="grid grid-cols-2 gap-8">
                         <div><img src={design1} alt="Final design" /></div>
                         <div><img src={design2} alt="Final design" /></div>
                         <div><img src={design3} alt="Final design" /></div>
                         <div><img src={design4} alt="Final design" /></div>
                     </div>
                 </div>
-                <div className="flex justify-between py-20">
-                    <div>
-                        <h3 className="mb-3">Watch Design Process</h3>
-                        <p>you can take a look at how i came about the designs if you would love to get inspired</p>
+                <div className="max-w-7xl mx-auto px-6 py-20">
+                    <div className="flex items-center justify-between space-x-4">
+                        <div>
+                            <h3 className="mb-4 text-4xl">Watch Design Process</h3>
+                            <p className="text-brand-gray-2 uppercase">you can take a look at how i came about the designs if you would love to get inspired</p>
+                        </div>
+                        <div><img src={design5} alt="Design" /></div>
                     </div>
-                    <div><img src={design5} alt="Design" /></div>
                 </div>
             </div>
         </main>
