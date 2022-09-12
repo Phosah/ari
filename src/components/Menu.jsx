@@ -4,7 +4,7 @@ const menu = () => {
     return (
         <main>
             <div>
-                <div className="bg-red-200 text-brand-black-1 dark:bg-brand-black-1">
+                <div className="text-brand-black-1 dark:bg-brand-black-1">
                     <header className="flex flex-col h-screen p-2">
                         <div className="flex items-center justify-between">
                             <div>
