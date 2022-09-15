@@ -3,10 +3,11 @@ import footerImg from '../assets/footer-bg.png';
 
 export default function Footer() {
     return (
-        <main className="relative">
-            <img className="absolute inset-0 object-cover w-full" src={footerImg} alt="Contact us" />
-            <div className="absolute w-full">
-                <div className="max-w-7xl mx-auto flex flex-col">
+        <main className="footer">
+            {/* <img className="absolute h-full w-full inset-0 object-cover" src={footerImg} alt="Contact us" /> */}
+            <div className="z-10 w-full py-9 text-white text-3xl">
+                <div className="max-w-7xl mx-auto">
+                <div className="flex flex-col">
                     <div className="pt-40 pb-20">
                         <h1 className="mb-8 text-7xl">Get In touch</h1>
                         <div className="flex items-center space-x-12 py-12">
@@ -21,6 +22,7 @@ export default function Footer() {
                         <a href="">LinkedIn</a>
                         <a href="">Medium</a>
                     </div>
+                 </div>
                 </div>
             </div>
         </main>
