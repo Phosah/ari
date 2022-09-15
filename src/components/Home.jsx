@@ -3,6 +3,7 @@ import ari from "../assets/ari.png";
 import brush from "../assets/paint-brush.svg";
 import happyface from "../assets/happy-face.svg";
 import scroll from "../assets/scroll.png";
+import visual from "../assets/visual.svg";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
@@ -12,6 +13,7 @@ export default function Home () {
             <Navbar />
             <div className="py-20">
                 <div className="text-center text-8xl">
+                    <img src={visual} alt="Visual icon" />
                     <h1 className="italic">Visual Designer <span className="text-brand-gray-1 not-italic">and</span></h1>
                     <h1 className="italic">Art Director <img className="inline-block" src={brush} alt="Paint brush" /> <span className="text-brand-gray-1">Creating</span> </h1>
                     <h1 className="text-brand-gray-1">Delightful Experiences</h1>
