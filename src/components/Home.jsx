@@ -33,7 +33,7 @@ export default function Home () {
                         </div>
                     </div>
                 </div>
-                <div><img src={scroll} alt="Scroll down" /></div>
+                <div className="animate-bounce"><img src={scroll} alt="Scroll down" /></div>
             </div>
             <div className="max-w-5xl mx-auto py-40">
                 <div className="flex justify-end space-x-4 py-10">
