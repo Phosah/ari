@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import mood1 from "../assets/mood1.png";
 import mood2 from "../assets/mood2.png";
 import design1 from "../assets/design1.png";
@@ -10,6 +10,11 @@ import rafikiHero from "../assets/rafiki.png";
 import Navbar from "./Navbar";
 
 const Rafiki = () => {
+
+    useEffect(() => {
+    window.scrollTo(0, 0)
+    }, [])
+
     return (
         <main className="">
             <div className="relative h-screen">

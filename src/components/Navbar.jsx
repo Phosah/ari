@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="flex items-center justify-between w-full max-w-7xl mx-auto py-10">
             <Link to="/"><div><img src={logo} alt="Menu logo" /></div></Link>
-            <div><img src={menu} alt="Menu logo" /></div>
+            <div className="cursor-pointer"><img src={menu} alt="Menu logo" /></div>
         </nav>
     );
 }

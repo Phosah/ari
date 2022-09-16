@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Illustrations from "./Illustrations";
 import illustration1 from "../assets/illustrations-1.png";
 import illustration2 from "../assets/illustrations-2.png";
 import Navbar from "./Navbar";
 
 export default function Projects () {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <div className="max-w-7xl mx-auto">
             <Navbar />
