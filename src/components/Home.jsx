@@ -25,11 +25,11 @@ export default function Home () {
                 <div className="w-3/5 flex items-center space-x-8">
                     <div><img src={ari} alt="Ari photo" /></div>
                     <div className="text-brand-gray-2 uppercase font-light">
-                        <p className="mb-6 text-xl">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR, EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
+                        <p className="mb-6 text-xl">HI, MY NAME IS ARI. I'M A VISUAL DESIGNER / ILLUSTRATOR,I CREATE EXPERIENCES SIMPLE AND DELIGHTFUL FOR AMBITIOUS TEAMS ACROSS THE GLOBE.</p>
                         <div className="flex items-center space-x-4 text-xs">
-                            <p>Twitter</p>
-                            <p>LinkedIn</p>
-                            <p>Behance</p>
+                            <p className="hover:text-white hover:cursor-pointer">Twitter</p>
+                            <p className="hover:text-white hover:cursor-pointer">LinkedIn</p>
+                            <p className="hover:text-white hover:cursor-pointer">Behance</p>
                         </div>
                     </div>
                 </div>

@@ -1,17 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import linkedin from '../assets/linkedin.svg';
 import behance from '../assets/behance.svg';
 import dribbble from '../assets/dribbble.svg';
 import twitter from '../assets/twitter.svg';
 
 
-const menu = () => {
+const menu = ({setNavToggled}) => {
     return (
-        <main>
+        <main className="">
             <div className="bg-brand-black-1">
                 <main className="flex flex-col h-screen p-2">
                     <div className="flex items-center justify-end p-8">
-                        <button>
+                        <button onClick={() => { 
+                                setNavToggled(false);
+                                console.log('clicked');
+                                console.log(setNavToggled)
+                            }
+                            }>
                             <svg
                                 className="p-3 w-12 h-12 rounded-full bg-[#191919]"
                                 fill="currentColor"
