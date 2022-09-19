@@ -15,9 +15,8 @@ export default function Navbar() {
                 <Link to="/"><div><img src={logo} alt="Menu logo" /></div></Link>
                 <div 
                     onClick={() => {
-                        setNavToggled(!navToggled)
-                        console.log(navToggled)
-                    }
+                            setNavToggled(!navToggled)
+                        }
                     } 
                     className="cursor-pointer">
                         <img src={menu} alt="Menu logo" />

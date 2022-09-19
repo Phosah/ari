@@ -1,9 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import linkedin from '../assets/linkedin.svg';
 import behance from '../assets/behance.svg';
 import dribbble from '../assets/dribbble.svg';
 import twitter from '../assets/twitter.svg';
-
 
 const menu = ({setNavToggled}) => {
     return (
@@ -13,8 +12,6 @@ const menu = ({setNavToggled}) => {
                     <div className="flex items-center justify-end p-8">
                         <button onClick={() => { 
                                 setNavToggled(false);
-                                console.log('clicked');
-                                console.log(setNavToggled)
                             }
                             }>
                             <svg
